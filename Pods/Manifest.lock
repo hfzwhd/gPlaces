@@ -1,0 +1,47 @@
+PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - DCKit (1.0.7)
+  - GoogleMaps (2.2.0):
+    - GoogleMaps/Maps (= 2.2.0)
+  - GoogleMaps/Base (2.2.0)
+  - GoogleMaps/Maps (2.2.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.2.0):
+    - GoogleMaps (= 2.2.0)
+    - GooglePlaces (= 2.2.0)
+  - GooglePlaces (2.2.0):
+    - GoogleMaps/Base (= 2.2.0)
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - DCKit (from `https://github.com/agordeev/DCKit.git`)
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+  DCKit:
+    :git: https://github.com/agordeev/DCKit.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: acc480fbe023c6e5fe40f68593f4a70a8c4c7ad5
+    :git: https://github.com/ViccAlexander/Chameleon.git
+  DCKit:
+    :commit: ce354f9c5db6926114fa23c98700fe34f1cc00fb
+    :git: https://github.com/agordeev/DCKit.git
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  DCKit: 6eaa3808daa8efa663522aa16406e46415c68a94
+  GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
+  GooglePlacePicker: 345b1aabd42c9d6d9bf2369c1bae1234d903e764
+  GooglePlaces: bca867d5e9da15384c794b945e4226848bc6e9d9
+
+PODFILE CHECKSUM: 80bbbad19d2c582ca7d9e5acdc88f10f1c851842
+
+COCOAPODS: 1.2.1
