@@ -64,9 +64,6 @@ class ViewController: UIViewController
         
     }
     
-    
-
-
 }
 
 extension ViewController: GMSAutocompleteViewControllerDelegate
